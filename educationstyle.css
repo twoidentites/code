@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif; 
+ }
+ body{
+     display: flex;
+     min-height: 100vh;
+     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(educationim/merkat.jpg);
+     background-size: cover;
+     background-position:center;
+ }
+ /*navgation bar*/
+ .navbar{
+    width: 85%;
+    margin: 5px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    padding: 35px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #117200;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+} 
+h1{
+    position: absolute;
+    left: 10%;
+    padding: 20px 20px;
+    top: 28%;
+    font-size: 75px;
+    font-weight: 750;
+    color: #fff;
+    line-height: 110%;
+}
+p{
+    position: absolute;
+    left: 10%;
+    padding: 20px 20px;
+    top: 45%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 110%;
+}
+
+
+
+.card1{
+    width: 300px;
+    height: 230px;
+    top: 23%;
+    left: 75%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(educationim/cartoon\ teach.jpeg);
+    background-size: cover;
+}
+.card2{
+    width: 300px;
+    height: 230px;
+    top: 23%;
+    left: 55%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(educationim/people-watching-penguins-falkland-islands-19362903.jpg.jpg);
+    background-size: cover;
+}
+.card3{ 
+    width: 300px;
+    height: 230px;
+    top: 53%;
+    left: 75%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    position: absolute; cursor: pointer;
+    background-image: url(educationim/Red_Panda_\(24986761703\).jpg);
+    background-size: cover;
+}
+.card4{ 
+    width: 300px;
+    height: 230px;
+    top: 53%;
+    left: 55%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    margin: 10px 15px;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(educationim/meerkatteach.jpg);
+    background-size: cover;
+}
+.card:hover{
+    transform: translateY((-10px));
+}
